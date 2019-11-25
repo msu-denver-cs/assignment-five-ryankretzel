@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="063690ed-afa5-4a97-aedb-ff64e1bbd18f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Assignment1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Assignment1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/cars_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cars_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/makes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/makes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/parts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/parts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/cars/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cars/_car.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/_car.json.jbuilder" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +25,13 @@
     <expand />
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,8 +46,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/assignment-two-ryankretzel-master (1).zip" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunAnythingCache">
@@ -312,7 +312,8 @@
       <workItem from="1570410053422" duration="623000" />
       <workItem from="1570411355234" duration="4201000" />
       <workItem from="1570415601783" duration="8157000" />
-      <workItem from="1572388125343" duration="2091000" />
+      <workItem from="1572388125343" duration="2973000" />
+      <workItem from="1574644987482" duration="2782000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>A very simple jQuery SPA</title>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <h1>Single Page Application - jQuery<h1>
+
+<!-- Changed to show various car, parts, make data. Assisted from other students to include
+     code in view json builder to show make name and not undefined-->
+<button onclick="fetch('cars', ['name', 'VIN', 'make', 'country'])">Cars</button>
+<button onclick="fetch('makes', ['name', 'country'])">Makes</button>
+<button onclick="fetch('parts', ['name'])">Parts</button>
+
+
+<div id="list">
+</div>
+
+<script>
+var fetch = function(which, fields) {
+    $("#list").empty();
+    $.get("http://localhost:3000/" + which + ".json", true)
+    .done(function(json) {
+        for (item in json) {
+            lis = "<li>";
+            for (field in fields) {
+                lis += json[item][fields[field]] + " ";
+            }
+            lis += "</li>";
+            $("#list").append(lis);
+        }
+    })
+    .fail(function(json){ console.log("fail"); })
+};
+</script>
+
+</body>
+</html>
